@@ -1,6 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-
+const axios = require('axios').default;
 const app = express();
 
 app.use(morgan('dev'));
